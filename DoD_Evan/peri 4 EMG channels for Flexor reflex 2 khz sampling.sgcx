@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CEDResources>
+	<Sample>
+		<!--Sampling configuration saved to D:\tSS Preliminary Data\peri 4 EMG channels for Flexor reflex 2 khz sampling.sgcx on Tuesday, January 21, 2020 11:01:26 AM-->
+		<SampCtl t="100" b="0" l="-1202" r="2"/>
+		<PulseDlg t="797" b="1123" l="-878" r="-322"/>
+		<General SampType="1" NumPorts="7" ADCRange="5" IdealRate="2000" ActualRate="2000" Points="40000" XCUnits="Pts">
+			<Ports>
+				<p id="0" n="0"/>
+				<p id="1" n="1"/>
+				<p id="2" n="2"/>
+				<p id="3" n="3"/>
+				<p id="4" n="4"/>
+				<p id="5" n="5"/>
+				<p id="6" n="6"/>
+			</Ports>
+		</General>
+		<Ports ArtLimit="100" ArtPercent="0"/>
+		<Peri PeriType="4" PeriPoints="400" PeriDigIn="8" PeriDigHi="0" PeriAnaHyst="0.10000002384185791"/>
+		<Outputs SeqWaveRate="1000" SeqWave="0">
+			<DACs Count="8">
+				<d id="0"/>
+				<d id="1"/>
+				<d id="2"/>
+				<d id="3"/>
+				<d id="4"/>
+				<d id="5"/>
+				<d id="6"/>
+				<d id="7"/>
+			</DACs>
+		</Outputs>
+		<States DigIMask="255"/>
+		<Auto MaxFrames="20" MaxSize="0" MaxTime="0"/>
+		<Pulses States="1">
+			<State id="0" Repeats="1">
+				<PulseList id="0">
+					<Pulse id="0" Type="0" Before="0.20000000298023224" Length="0.10000000149011612" Repeats="1" Frame="2" Interval="10"/>
+				</PulseList>
+				<PulseList id="1">
+					<Pulse id="0" Type="0" Before="0.20000000298023224" Length="0.10000000149011612" Repeats="1" Frame="2" Interval="10"/>
+				</PulseList>
+				<PulseList id="2">
+					<Pulse id="0" Type="0" Before="0.20000000298023224" Length="0.10000000149011612" Repeats="1" Frame="2" Interval="10"/>
+				</PulseList>
+				<PulseList id="3">
+					<Pulse id="0" Type="0" Before="0.20000000298023224" Length="0.10000000149011612" Repeats="1" Frame="2" Interval="10"/>
+				</PulseList>
+				<PulseList id="4">
+					<Pulse id="0" Type="0" Before="0.20000000298023224" Length="0.10000000149011612" Repeats="1" Frame="2" Interval="10"/>
+				</PulseList>
+				<PulseList id="5">
+					<Pulse id="0" Type="0" Before="0.20000000298023224" Length="0.10000000149011612" Repeats="1" Frame="2" Interval="10"/>
+				</PulseList>
+				<PulseList id="6">
+					<Pulse id="0" Type="0" Before="0.20000000298023224" Length="0.10000000149011612" Repeats="1" Frame="2" Interval="10"/>
+				</PulseList>
+				<PulseList id="7">
+					<Pulse id="0" Type="0" Before="0.20000000298023224" Length="0.10000000149011612" Repeats="1" Frame="2" Interval="10"/>
+				</PulseList>
+				<PulseList id="8">
+					<Pulse id="0" Type="0" Before="0.20000000298023224" Length="0.10000000149011612" Repeats="1" Frame="2" Interval="10"/>
+				</PulseList>
+				<PulseList id="9">
+					<Pulse id="0" Type="0" Before="0.20000000298023224" Length="0.10000000149011612" Repeats="1" Frame="2" Interval="10"/>
+				</PulseList>
+			</State>
+		</Pulses>
+		<CondPorts Count="6">
+			<c id="0" Scale="0.0762939453125" Units="uV" Source="2"/>
+			<c id="1" Scale="0.0762939453125" Units="uV" Source="2"/>
+			<c id="2" Scale="0.0762939453125" Units="uV" Source="2"/>
+			<c id="3" Scale="0.0762939453125" Units="uV" Source="2"/>
+			<c id="4" Scale="0.0762939453125" Units="uV" Source="2"/>
+			<c id="6" Scale="0.0762939453125" Units="uV" Source="2"/>
+		</CondPorts>
+		<ExtraPorts Count="6">
+			<p id="0" Name="TA" Opts=""/>
+			<p id="1" Name="hide" Opts=""/>
+			<p id="2" Name="Sol" Opts=""/>
+			<p id="3" Name="SOL hide" Opts=""/>
+			<p id="4" Name="Quad" Opts=""/>
+			<p id="6" Name="Ham" Opts=""/>
+		</ExtraPorts>
+		<AuxTel/>
+		<AuxState/>
+		<ForceOP/>
+	</Sample>
+	<DocCfs>
+		<View>
+			<WPlace flags="2" showc="3" minx="160" miny="1754" maxx="-8" maxy="-30" t="50" b="1276" l="50" r="646"/>
+			<Font hgt="-11" wgt="400" paf="16" fnam="Times New Roman"/>
+			<Chan Version="1" Chan="0" DMode="2" DWidth="1" DError="1" LnType="0" AxMin="-479.5110529784544" AxMax="432.32804318881244" AdcAxMin="-479.5110529784544" AdcAxMax="432.32804318881244" RateAxMax="10" AxType="1" DefDMode="2" BackOv="0"/>
+			<Chan Version="1" Chan="1" DMode="2" DWidth="1" DError="1" LnType="0" Vis="0" AxMin="83.07221981614937" AxMax="-83.07221981614937" AdcAxMin="83.07221981614937" AdcAxMax="-83.07221981614937" RateAxMax="10" AxType="1" DefDMode="2" BackOv="0"/>
+			<Chan Version="1" Chan="2" DMode="2" DWidth="1" DError="1" LnType="0" AxMin="-581.2236295482514" AxMax="584.05886676556" AdcAxMin="-581.2236295482514" AdcAxMax="584.05886676556" RateAxMax="10" AxType="1" DefDMode="2" BackOv="0"/>
+			<Chan Version="1" Chan="3" DMode="2" DWidth="1" DError="1" LnType="0" Vis="0" AxMin="-107.33007561782931" AxMax="107.33007561782931" AdcAxMin="-107.33007561782931" AdcAxMax="107.33007561782931" RateAxMax="10" AxType="1" DefDMode="2" BackOv="0"/>
+			<Chan Version="1" Chan="4" DMode="2" DWidth="1" DError="1" LnType="0" AxMin="-2500" AxMax="2500" AdcAxMin="-2500" AdcAxMax="2500" RateAxMax="10" AxType="1" DefDMode="2" BackOv="0"/>
+			<Chan Version="1" Chan="5" DMode="2" DWidth="1" DError="1" LnType="0" Vis="0" AxMin="-5" AxMax="5" AdcAxMin="-5" AdcAxMax="5" RateAxMax="10" AxType="1" DefDMode="2" BackOv="0"/>
+			<Chan Version="1" Chan="6" DMode="2" DWidth="1" DError="1" LnType="0" AxMin="-2500" AxMax="2500" AdcAxMin="-2500" AdcAxMax="2500" RateAxMax="10" AxType="1" DefDMode="2" BackOv="0"/>
+			<Chan Version="1" Chan="7" DMode="11" DWidth="1" DError="1" LnType="0" Ax="0" AdcAxMax="10" RateAxMax="10" ChType="1" DefDMode="11" BackOv="0"/>
+			<XInfo Right="20" CurFr="0" OverDraw="1" DCStart="XLow()" DCEnd="XHigh()" XAxSmall="5" CRBack="0" VCLabMode="3" HCLabMode="3" VCCount="1">
+				<VCur id="0" Pos="0.02179881047868396" LabMode="3" LabPos="0.2" Num="0"/>
+			</XInfo>
+			<ChOrder Chans="8">
+				<c id="0"/>
+				<c id="1" Chan="1"/>
+				<c id="2" Chan="2"/>
+				<c id="3" Chan="3"/>
+				<c id="4" Chan="4"/>
+				<c id="5" Chan="5"/>
+				<c id="6" Chan="6"/>
+				<c id="7" Chan="7"/>
+			</ChOrder>
+			<CursVals t="830" b="1073" l="-710" r="-65"/>
+			<CursRegs t="477" b="724" l="-867" r="-250" YZero="0" Mode="9"/>
+			<OvDraw3d YProp="0.5" XScale="0.5" YScale="0.5" MaxF="1"/>
+			<OvDrawFr FSCod="-1" FSSta="-1"/>
+		</View>
+	</DocCfs>
+	<App>
+		<WPlace flags="2" showc="3" minx="-1" miny="-1" maxx="-1" maxy="-1" t="237" b="1579" l="-1032" r="-39"/>
+	</App>
+</CEDResources>
